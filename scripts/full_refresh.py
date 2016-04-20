@@ -19,7 +19,7 @@ heroPagesPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 
 for name in os.listdir(voHeroPath):
     if name == '.DS_Store':
         continue
-    if '.DS_Store' in os.listdir(voHeroPath + '/'+name):
+    if '.DS_Store' in os.listdir(voHeroPath + '/' + name):
         os.remove(voHeroPath + '/' + name + '/.DS_Store')
         skins = os.listdir(voHeroPath + '/' + name)
         inc = len(skins)-1
