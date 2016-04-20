@@ -182,6 +182,8 @@ for name in os.listdir(voHeroPath):
       ga('send', 'pageview');
 
     </script>
+  </body>
+</html>
 """
             text += closer
 

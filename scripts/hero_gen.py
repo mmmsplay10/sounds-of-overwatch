@@ -197,6 +197,8 @@ closer ="""
       ga('send', 'pageview');
 
     </script>
+  </body>
+</html>
 """
 text += closer
 
