@@ -1,7 +1,7 @@
 import os, sys
 
 voHeroPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'vo/vo_hero/'))
-heroPagesPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'hero_pages/'))
+heroPagesPath = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'pages/hero_pages/'))
 
 #User input
 while True:
@@ -85,16 +85,16 @@ header = """<!DOCTYPE html>
   <head>
     <title>{0}</title>
     <meta charset="utf-8">
-    <link href="../styles/heroes.css" rel="stylesheet" type="text/css">
+    <link href="../../css/heroes.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="col" align="left">
-      <h3><a href="../index.html" id="menu">Main Menu</a></h3>
+      <h3><a href="../../index.html" id="menu">Main Menu</a></h3>
     </div>
     <div class="col" align="center">
       <h2  id='title'>{0}</h2>
-      <img src="../images/hero_images/{1}.jpg" alt="{0}"/><br>""".format(title,pic)
+      <img src="../../images/hero_images/{1}.jpg" alt="{0}"/><br>""".format(title,pic)
 
 text = header
 
@@ -170,7 +170,7 @@ for track in os.listdir(voHeroPath+'/{}/{}'.format(name,skin_file)):
     <div class="track">
       <h4>{}</h4>
       <audio controls>
-        <source src="../vo/vo_hero/{}/{}/{}" />
+        <source src="../../vo/vo_hero/{}/{}/{}" />
       </audio>
     </div>""".format(t_name,name,skin_file,track)
     #add block to file input string
@@ -185,8 +185,8 @@ for i in range(ph_count):
 
 #Write google analytics code and closing tags
 closer ="""
-    <script src='../js/jquery-1.12.2.min.js'></script>
-    <script src='../js/heroScript.js'></script>
+    <script src='../../js/jquery-1.12.2.min.js'></script>
+    <script src='../../js/heroScript.js'></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
