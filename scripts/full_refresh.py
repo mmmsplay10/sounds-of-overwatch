@@ -43,8 +43,19 @@ for name in os.listdir(voHeroPath):
             if 'Default' in skin_file:
                 if 'Soldier' in name:
                     title = 'Soldier: 76'
-                    pic = name = 'Soldier76'
+                    pic = 'soldier76'
+                    name = 'Soldier76'
                     skin_file = "Soldier76 - Default"
+                elif 'Torbjorn' in name:
+                    title = 'Torbjörn'
+                    pic = 'torbjorn'
+                    name = 'Torbjorn'
+                    skin_file = "Torbjorn - Default"
+                elif 'Lucio' in name:
+                    title = 'Lúcio'
+                    pic = 'lucio'
+                    name = 'Lucio'
+                    skin_file = "Lucio - Default"
                 else:
                     title = name #title = default name
                     pic = title.lower()
