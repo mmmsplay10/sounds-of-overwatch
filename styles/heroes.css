@@ -1,0 +1,85 @@
+a {
+  display: inline-block;
+  color: white;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+img {
+  border: 2px solid #4d4d4d;
+  box-shadow: #4d4d4d 0px 0px 20px;
+  border-bottom: 0px;
+  margin: 10px 0px 0px;
+  text-align: center;
+  width: 206px;
+  height: 300px;
+  vertical-align: top;
+}
+#title {
+  color: black;
+}
+h2, h3 {
+  color: #4d4d4d;
+  font-family: 'Oswald', sans-serif;
+  margin: 0px;
+}
+h4 {
+  color: #4d4d4d;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+html {
+  background-image: url("../images/hero_images/herobackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.col {
+  display: inline-block;
+  width: 33%;
+  vertical-align: text-top;
+}
+.download {
+  /*box-shadow: 0px 0px 50px #4d4d4d inset;*/
+  display: inline-block;
+  width: 206px;
+  border: 2px solid #4d4d4d;
+  background-color: white;
+}
+.link {
+  text-decoration: none;
+}
+.placeholder {
+  width: 334px;
+  height: 0px;
+  visibility: hidden;
+  display: inline-block;
+}
+.track {
+  display: inline-block;
+  background: white;
+  margin: 10px 5px;
+  padding: 10px;
+  border: 2px solid #4d4d4d;
+  border-radius: 5px;
+}
+h3 a {
+  /*box-shadow: 0px 0px 50px #4d4d4d inset;*/
+  padding: 5px 15px;
+  background-color: white;
+  border: 2px solid #4d4d4d;
+  color: #4d4d4d;
+}
+p {
+  color: white;
+}
+#skinParent {
+  display: inline-block;
+}
+#miscIcon {
+  width: 196px;
+  height: 196px;
+  padding: 5px;
+  background-color: white;
+}

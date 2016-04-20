@@ -1,0 +1,94 @@
+html {
+  background-color: black;
+  text-align: center;
+}
+.header {
+  overflow: auto;
+  width: auto;
+}
+.bg_icon {
+  width: 290px;
+  height: 251px;
+  border: 2px solid rgb(255, 102, 0);
+  box-shadow: rgba(204, 39, 11, 0.74902) 0px 0px 15px 5px;
+}
+.download {
+  box-shadow: 0px 0px 50px #3D007A inset;
+  display: inline-block;
+  width: 290px;
+  border: 2px solid #3D007A;
+  background-color: black;
+}
+.link {
+  text-decoration: none;
+}
+.misc_icon {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #0000CC;
+}
+h2, h3 {
+  color: white;
+  display: inline;
+  margin: 5px 0px;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  float: right;
+  width: 33.33333%;
+}
+a {
+  display: inline-block;
+  color: white;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+#right {
+  text-align: right;
+  float: right;
+  width: 33.33333%;
+}
+#left {
+  text-align: left;
+  float: left;
+  width: 33.33333%;
+}
+
+.track {
+  display: inline-block;
+  background: rgba(61, 0, 122, 0.12);
+  box-shadow: rgba(61, 0, 122, 0.5) 0px 0px 20px;
+  margin: 10px 5px;
+  padding: 10px;
+  border: 2px solid #3D007A;
+  border-radius: 5px;
+}
+h4 {
+  color: #E6E6E6;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+  width: 33.33333%;
+  display: inline;
+}
+p {
+  width: 33.33333%;
+  float: left;
+}
+.placeholder {
+  width: 334px;
+  height: 0px;
+  visibility: hidden;
+  display: inline-block;
+}
+h3 a {
+  box-shadow: 0px 0px 50px #3D007A inset;
+  padding: 5px 15px;
+  background-color: black;
+  border: 2px solid #3D007A;
+}
+#miscDl {
+  width: 150px;
+}

@@ -1,0 +1,125 @@
+html {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+body {
+  background-color: #f5f6fa;
+  background-image: url("../images/index_images/background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 82%;
+  margin: 0px auto;
+}
+.download {
+  display: inline-block;
+  width: 200px;
+  border: 2px solid #4d4d4d;
+  background-color: white;
+}
+.top_filler {
+  margin-top: 45%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.entry {
+  display: inline-block;
+  width: 200px;
+  margin: 0px 0px 50px 0px;
+}
+.placeholder {
+  visibility: hidden;
+  display: inline-block;
+  margin: 0px;
+  width: 214px;
+  height: 0px;
+  padding: 0px;
+}
+.icon {
+  width: 100%;
+  border: 2px solid #4d4d4d;
+  box-shadow: #4d4d4d 0px 0px 20px;
+}
+h4 {
+  color: #4d4d4d;
+  text-align: center;
+  margin: 0px;
+  /*text-shadow: #7f7f7f 0px 0px 50px;*/
+}
+.link {
+  text-decoration: none;
+}
+#battlegrounds {
+  width: 82%;
+  margin: 0px auto;
+  text-align: justify;
+}
+.map_placeholder {
+  width: 290px;
+  height: 0px;
+  visibility: hidden;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px
+}
+hr {
+  border-color: #4d4d4d;
+}
+.category {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.bg {
+  display: inline-block;
+  margin: 0px 0px 50px 0px;
+}
+.bg_icon {
+  width: 290px;
+  height: 251px;
+  border: 2px solid #FF6600;
+  box-shadow: 0 0 15px 5px rgba(204,39,11,.75)
+}
+#disclaimer {
+  color: #7B7B7B;
+  width: 700px;
+  margin: auto;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  text-transform: none;
+}
+.bottom {
+  text-align: center;
+}
+#misc {
+  width: 82%;
+  margin: 0px auto;
+  text-align: center;
+}
+.misc {
+  display: inline-block;
+  margin: 0px 20px 50px 20px;
+}
+.misc h4 {
+  color: #4d4d4d;
+  text-align: center;
+  margin: 0px;
+  font-size: 15px;
+}
+.misc_icon {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  border: 2px solid #4d4d4d;
+  box-shadow: 0 0 20px #4d4d4d
+}
+.misc_placeholder {
+  width: 150px;
+  height: 0px;
+  visibility: hidden;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
